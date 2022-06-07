@@ -1,1 +1,1 @@
-web: gunicorn Zurichat.wsgi
+web: gunicorn Zurichat.wsgi:application --log-file -
